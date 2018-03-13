@@ -1,0 +1,5 @@
+﻿# 忽略对index.html的跟踪
+index.html
+#忽略对node_modules文件夹的跟踪
+node_modules/
+.git/
