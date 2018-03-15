@@ -269,7 +269,6 @@ input {
     .recommend{
         width: 1130px;
         height: 502px;
-        background: pink;
         margin: 0 auto;
         
         p{
@@ -299,7 +298,7 @@ input {
         }
         
         .dayr{
-            width: 887px;
+            width: 890px;
             height: 440px;
             margin-top: 10px;
             float: left;
@@ -309,6 +308,7 @@ input {
                 height: 212px;
                 border: 1px solid #eee;
                 float: left;
+                margin: 0 8px 8px 0;
                 a{
                     font-size: 12px;
                     float: left;
@@ -318,6 +318,9 @@ input {
                 }
                 a:hover{
                     color: #5da700;
+                }
+                .daone{
+                    width: 210px;
                 }
                 .datwo{
                     color: #ff5500;
@@ -335,8 +338,7 @@ input {
                         font-weight: 1000;
                         float: left;
                         display: inline-block;
-                        
-                        
+           
                     }
                     .dttwo{
                         text-decoration: line-through;
@@ -348,6 +350,453 @@ input {
                 }
                 
             }
+            .dayone:hover{
+                opacity: 0.7;
+            }
         }
     }
+}
+
+.new{
+    width:100%;
+    height: 240px;
+    clear: both;
+    
+    .news{
+        width: 1130px;
+        height: 285px;
+        margin: 0 auto;
+        
+        p{
+            height: 45px;
+            line-height: 45px;
+            border-bottom: 1px solid #5da700;
+            .tol{
+                color: #5da700;
+                font-size: 24px;
+                font-weight: 1000;
+                display: inline-block;
+                text-indent: 10px;
+            }
+            .tor{
+                color: #bbbbbb;
+                text-indent: 1em;
+                display: inline-block;
+            }
+        }
+        
+        .dayr{
+            
+            height: 230px;
+            margin: 10px 0 0 10px;
+            float: left;
+            
+            .dayone{
+                width: 212px;
+                height: 212px;
+                border: 1px solid #eee;
+                float: left;
+                margin: 0 8px 8px 0;
+                a{
+                    font-size: 12px;
+                    float: left;
+                    text-indent: 10px;
+                    height: 25px;
+                    line-height: 25px;
+                }
+                a:hover{
+                    color: #5da700;
+                }
+                .daone{
+                    width: 210px;
+                }
+                .datwo{
+                    color: #ff5500;
+                    font-size: 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    .dtc{
+                        float: left;
+                        display: inline-block;
+                        height: 30px;
+                        text-indent: 1em;
+                    }
+                    .dtone{
+                        font-size: 24px;
+                        font-weight: 1000;
+                        float: left;
+                        display: inline-block;
+           
+                    }
+                    .dttwo{
+                        text-decoration: line-through;
+                        float: left;
+                        display: inline-block;
+                        text-indent: 1em;
+                        width:70px
+                    }
+                }
+                
+            }
+            .dayone:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.brall{
+    width: 1130px;
+    clear: both;
+    height: 120px;
+    margin: 0 auto;
+    background: url(../img/brall.jpg) center no-repeat;
+}
+
+.ddcat{
+    width:100%;
+    height: 502px;
+    clear: both;
+    
+    .cat{
+        width: 1130px;
+        height: 502px;
+        margin: 0 auto;
+        
+        p{
+            height: 45px;
+            line-height: 45px;
+            border-bottom: 1px solid #5da700;
+            .tol{
+                color: #5da700;
+                font-size: 24px;
+                font-weight: 1000;
+                display: inline-block;
+                text-indent: 10px;
+            }
+            .tor{
+                color: #bbbbbb;
+                text-indent: 1em;
+                display: inline-block;
+            }
+        }
+        
+        .dayl{
+            width: 230px;
+            height: 440px;
+            background: yellow;
+            margin:10px 10px 0 0;
+            float: left;
+        }
+        
+        .dayr{
+            width: 890px;
+            height: 440px;
+            margin-top: 10px;
+            float: left;
+            
+            .dayone{
+                width: 212px;
+                height: 212px;
+                border: 1px solid #eee;
+                float: left;
+                margin: 0 8px 8px 0;
+                a{
+                    font-size: 12px;
+                    float: left;
+                    text-indent: 10px;
+                    height: 25px;
+                    line-height: 25px;
+                }
+                a:hover{
+                    color: #5da700;
+                }
+                .daone{
+                    width: 210px;
+                }
+                .datwo{
+                    color: #ff5500;
+                    font-size: 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    .dtc{
+                        float: left;
+                        display: inline-block;
+                        height: 30px;
+                        text-indent: 1em;
+                    }
+                    .dtone{
+                        font-size: 24px;
+                        font-weight: 1000;
+                        float: left;
+                        display: inline-block;
+           
+                    }
+                    .dttwo{
+                        text-decoration: line-through;
+                        float: left;
+                        display: inline-block;
+                        text-indent: 1em;
+                        width:70px
+                    }
+                }
+                
+            }
+            .dayone:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.bar{
+    width: 1130px;
+    clear: both;
+    height: 120px;
+    margin: 0 auto;
+    img{
+        width: 560px;
+    }
+}
+
+.cookie{
+    width: 1130px;
+    clear: both;
+    height: 522px;
+    margin: 0 auto;
+    
+    .cooktit{
+        height: 52px;
+        
+        .left-tit{
+            width: 200px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 20px;
+            font-weight: 1000;
+            float: left;
+            .lef{
+                color: #65b600;
+                text-indent: 10px;
+                display: inline-block;
+            }
+        }
+        
+        ul{
+            width: 450px;
+            font-size: 12px;
+            float: right;
+            color: #4b4b4b;
+            li{
+                float: left;
+                height: 45px;
+                line-height: 45px;
+            }
+        }
+        p{
+            height: 6px;
+            background: url(../img/1.png) left top no-repeat;
+            clear: both;
+            border-bottom: 1px solid #65b600;
+        }
+    }
+    
+    .content{
+        clear: both;
+        width: 1128px;
+        height:460px ;
+        border: 1px solid #ccc;
+        border-top: none;
+        
+        .contone{
+            width: 308px;
+            height: 440px;
+            margin: 10px 0 0 10px;
+            float: left;
+            ul{
+                height: 224px;
+                li{
+                    float: left;
+                }
+                .zt{
+                    width: 100px;
+                    height: 50px;
+                    background: #65b600;
+                    margin: 0 1px;
+                    a{
+                         color: #fff;
+                         text-align: center;
+                         height: 50px;
+                         line-height: 50px;
+                    }
+                    a:hover{
+                        color: #65b600;
+                        background: #ebfbdf;
+                        font-weight: 1000;
+                    }  
+                }
+                .images{
+                    margin: 3px 0 3px 2px;
+                    float: left;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background: #858383;
+                        width: 150px;
+                        height: 78px;
+                        left: 0;
+                        top: 0;
+                        display: none;
+                        opacity: 0.6;
+                    }
+                }
+                
+            }
+        }
+        
+        .conttwo{
+            width: 445px;
+            height: 440px;
+            margin: 10px 0 0 10px;
+            float: left;
+            
+            .dayone{
+                width: 212px;
+                height: 212px;
+                border: 1px solid #eee;
+                float: left;
+                margin: 0 8px 8px 0;
+                a{
+                    font-size: 12px;
+                    float: left;
+                    text-indent: 10px;
+                    height: 25px;
+                    line-height: 25px;
+                }
+                a:hover{
+                    color: #5da700;
+                }
+                .daone{
+                    width: 210px;
+                }
+                .datwo{
+                    color: #ff5500;
+                    font-size: 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    .dtc{
+                        float: left;
+                        display: inline-block;
+                        height: 30px;
+                        text-indent: 1em;
+                    }
+                    .dtone{
+                        font-size: 24px;
+                        font-weight: 1000;
+                        float: left;
+                        display: inline-block;
+           
+                    }
+                    .dttwo{
+                        text-decoration: line-through;
+                        float: left;
+                        display: inline-block;
+                        text-indent: 1em;
+                        width:70px
+                    }
+                }
+                
+            }
+            .dayone:hover{
+                opacity: 0.7;
+            }
+        }
+        
+        .contthe{
+            width: 342px;
+            height: 440px;
+            margin: 10px 0 0 5px;
+            float: left;
+            p{
+                height: 32px;
+                background: #7dc523;
+                text-align: center;
+                line-height: 32px;
+                color: #fff;
+            }
+            .price{
+                width: 342px;
+                height: 130px;
+                margin-top: 5px;
+                 a img{
+                    width: 130px;
+                    height: 130px;
+                    float: left;
+                }
+                
+                ul{
+                    width: 207px;
+                    height: 130px;
+                    float: left;
+                    padding-left: 5px;
+                    li{
+                        float: left;
+                    }
+                    .pone{
+                        width: 207px;
+                            a {
+                               color: #4b4b4b;
+                               font-size: 12px;
+                               line-height: 30px;
+                               height: 30px;
+                            }
+                            a:hover{
+                                color: #7dc523;
+                            }
+                        
+                    }
+                    .ptow{
+                        float: left;
+                        height: 20px;
+                        line-height: 20px;
+                    }
+                    .pthe{
+                        float: left;
+                        width: 146px;
+                        height: 20px;
+                        line-height: 25px;
+                        font-size: 14px;
+                        font-weight: 1000;
+                        text-indent: 1em;
+                    }
+                    .pfou{
+                        font-size: 14px;
+                        font-weight: 1000;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                    .pfiv{
+                        height: 22px;
+                        span{
+                            display: inline-block;
+                            height: 17px;
+                            padding: 5px 6px;
+                            background:#e0f9cf ;
+                            font-size: 12px;
+                            margin-right:8px ;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+}
+
+.boottom{
+    width: 1130px;
+    height: 132px;
+    background: pink;
+    margin: 10px auto;
+    border-top: 1px solid #ccc;
 }
