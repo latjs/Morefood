@@ -1,0 +1,156 @@
+.content{
+    width: 1128px;
+    height: 2734px;
+    margin: 0 auto;
+    clear: both;
+    .conl{
+        width: 162px;
+        margin-top: 30px;
+        border:1px solid #4ac7cf;
+        float: left;
+            p{
+                background: #4ac7cf;
+                text-align: center;
+                color: #fff;
+                font-size: 14px;
+                height: 32px;
+                line-height: 32px;
+            }
+            .cont{
+                width: 164px;
+                height: 100%;
+            }
+    }
+    
+    .conr{
+        width: 950px;
+        margin: 25px 0 0 10px;
+        float: left;
+        border-top: 1px solid #ccc;
+        .conrtop{
+            font-size: 14px;
+            color: #666666;
+            height: 36px;
+            line-height: 36px;
+            text-indent: 1em;
+            border-bottom: 1px solid #ccc;
+            span{
+                color: #000;
+                font-weight: 1000;
+            }
+        }
+        .conrnav{
+            height: 40px;
+            line-height: 40px;
+            background: #f7f7f7;
+            a{
+                width: 70px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                float: left;
+                color: #000;
+                border-right: 1px solid #dddddd;
+            }
+        }
+        .section{
+            width: 950px;
+            clear: both;
+            padding-top: 10px;
+            .dayone{
+                width: 166px;
+                height: 304px;
+                float: left;
+                padding:5px 10px 0 10px ;
+                margin: 0 2px 8px 0;
+                a{
+                    font-size: 14px;
+                    float: left;
+                    color: #4b4b4b;
+                    text-indent: 10px;
+                    height: 25px;
+                    line-height: 25px;
+                }
+                a:hover{
+                    color: #5da700;
+                }
+                .daone{
+                    width: 166px;
+                }
+                .datwo{
+                    color: #ff5500;
+                    font-size: 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    .dtc{
+                        float: left;
+                        display: inline-block;
+                        height: 30px;
+                        text-indent: 1em;
+                    }
+                    .dtone{
+                        font-size: 24px;
+                        font-weight: 1000;
+                        float: left;
+                        display: inline-block;
+           
+                    }
+                   
+                }
+                .dttwo{
+                        display: inline-block;
+                        text-indent: 10px;
+                        width:166px;
+                        font-size: 12px;
+                        height: 25px;
+                        line-height: 25px;
+                        color: #ff5500;
+                }
+                
+                .plsc{
+                    width: 166px;
+                    height: 50px;
+                    font-size: 12px;
+                    p{
+                        float: left;
+                        width: 166px;
+                        height: 25px;
+                        color: #68bb00;
+                        line-height: 25px;
+                        text-indent: 25px;
+                        background: url(../img/listzh2.png) 4px -25px no-repeat;
+                    
+                        
+                    }
+                    span{
+                        float: left;
+                        height: 25px;
+                        line-height: 25px;
+                        width: 60px;
+                        text-indent: 25px;
+                        color: #dddddd;
+                        border: 1px solid #eee ;
+                        border-right: none;
+                        background: url(../img/listzh2.png) 4px -85px no-repeat;
+                    }
+                    a{
+                        float: left;
+                        width: 100px;
+                        height: 25px;
+                        line-height: 25px;
+                        color: #68bb00;
+                        text-indent: 25px;
+                        border: 1px solid #eee ;
+                        background: url(../img/listzh2.png) 4px -114px no-repeat;
+                    }
+                }
+                
+            }
+            
+            
+            
+            
+        }
+       
+    }
+}
