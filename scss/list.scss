@@ -43,6 +43,7 @@
             height: 40px;
             line-height: 40px;
             background: #f7f7f7;
+            margin-top: 10px;
             a{
                 width: 70px;
                 height: 40px;
@@ -54,15 +55,29 @@
             }
         }
         .section{
-            width: 950px;
+            width: 980px;
             clear: both;
             padding-top: 10px;
             .dayone{
                 width: 166px;
                 height: 304px;
                 float: left;
+                
                 padding:5px 10px 0 10px ;
                 margin: 0 2px 8px 0;
+                p{
+                    position: relative;
+                    span{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 40px;
+                        height: 27px;
+                        z-index: 3;
+                        display: inline-block;
+                        background: url(../img/listzh.png) 2px 0px no-repeat;
+                    }
+                }
                 a{
                     font-size: 14px;
                     float: left;
@@ -146,7 +161,33 @@
                 }
                 
             }
-            
+            .xh{
+                width: 160px;
+                height: 30px;
+                margin: 0 auto;
+                clear: both;
+                margin-top: 20px;
+                span{
+                    color: #4b4b4b;
+                    width: 25px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    border:1px solid #dddddd;
+                    display: inline-block;
+                    font-size: 14px;
+                    margin-right: 6px;
+                    float: left;
+                }
+                .xhl{
+                    color: #fff;
+                    background: #68bb00;
+                }
+                .xhr{
+                    width: 54px;
+                    margin-right: 0;
+                }
+            }
             
             
             
