@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+	<title>猫诚登录</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+ 	<link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+<!--header-->	
+        <div class="logoin-top">
+        	<img src="img/logo.gif"/>
+        	<h4>欢迎登录</h4>
+        </div>
+	    <div class="section">
+	    	<div class="vip">
+	    		<p class="tit">
+	    			<span class="titl">猫诚会员</span>
+	    			<a href="javascript:;">免费注册</a>
+	    		</p>
+	    		<form action="">
+		    		<ul>
+		    			<li class="one"><span></span><input type="text" placeholder="手机/用户名/邮箱"  id="username"/></li>
+		    			<li class="two"><span></span><input type="password" placeholder="密码" id="userpass"/></li>
+		    			<li class="there"><input type="checkbox"/>自动登录<a href="javascript:;">忘记密码？</a></li>
+		    			<li class="fove"><input id="btn" type="button" style="outline: medium;" value="立即登录"/></li>
+		    			<li id="hint"></li>
+		    		</ul>
+	    		</form>
+	    		<div class="lianjie">
+	    			<p>使用合作网站账号登录猫诚食品：</p>
+	    			<span class="first">QQ</span>
+	    			<span class="sec">微信</span>
+	    			<span class="therid">新浪</span>
+	    			<span class="fours">支付宝</span>
+	    		</div>
+	    		
+	    	</div>
+	    </div>
+<!--footer-->	
+		<div class="boottom">
+			<ul>
+				<li><h5>关于我们</h5></li>
+				<li><a href="javascript:;">猫诚食品介绍</a></li>
+				<li><a href="javascript:;">猫诚食品微博</a></li>
+				<li><a href="javascript:;">商务合作</a></li>
+				<li><a href="javascript:;">电商系统</a></li>
+			</ul>
+			<ul>
+				<li><h5>新手指南</h5></li>
+				<li><a href="javascript:;">会员介绍</a></li>
+				<li><a href="javascript:;">优惠劵使用</a></li>
+				<li><a href="javascript:;">评价商品</a></li>
+			</ul>
+			<ul>
+				<li><h5>支付方式</h5></li>
+				<li><a href="javascript:;">支付宝余额支付</a></li>
+				<li><a href="javascript:;">微信钱包支付</a></li>
+				<li><a href="javascript:;">网银在线支付</a></li>
+				<li><a href="javascript:;">联华OK卡支付</a></li>
+			</ul>
+			<ul>
+				<li><h5>配送方式</h5></li>
+				<li><a href="javascript:;">安全配送</a></li>
+				<li><a href="javascript:;">配送时间及费用</a></li>
+			</ul>
+			<ul>
+				<li><h5>售后服务</h5></li>
+				<li><a href="javascript:;">退换货流程</a></li>
+				<li><a href="javascript:;">退换货注意事项</a></li>
+			</ul>
+			<ul>
+				<li><h5>帮助中心</h5></li>
+				<li><a href="javascript:;">常见问题</a></li>
+				<li><a href="javascript:;">联系我们</a></li>
+				<li><a href="javascript:;">物流查询</a></li>
+			</ul>
+		</div>
+		
+		<div class="boottomes"></div>
+		
+		<div class="footer">
+			<p class="foot">
+				<a href="javascript:;">首   页&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">联系我们&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">加入猫诚食品&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">手机猫诚食品</a>
+			</p>
+			<p>Copyright © 2009-2018 morefood.com，All Rights Reserved 上海猫诚电子商务股份有限公司 版权所有 沪ICP备09068257号-7</p>
+			<p>食品流通许可证编号：JY13101130035157 酒类许可证：1406030114003051 营业执照</p>
+			<div class="photo"><img src="img/foot1.gif" alt="" /><img src="img/foot2.jpg" alt="" /><img src="img/foot3.gif" alt="" /><img src="img/foot4.png" alt="" /></div>
+		</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.1.8.3.js"></script>
+<script type="text/javascript">
+$(function () {
+    $("#btn").click(function () {
+        $.ajax({
+           type:"POST",
+           url:"logincheck02.php",
+           data:{
+              "username":$("#username").val(),
+              "userpass":$("#userpass").val()
+           },
+            success:function (t) {
+                if(t=="1"){
+                    //保存cookie
+                    location.href="index.html";
+                }else{
+                    $("#hint").html("用户名或者密码错误");
+                    $("#hint").show();
+                }
+            }
+        });
+    });
+});
+</script>

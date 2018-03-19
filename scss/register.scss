@@ -1,0 +1,193 @@
+.logoin-top{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+    img{
+        float: left;
+        margin-top: 40px;
+    }
+    h4{
+        float: left;
+        margin-top: 36px;
+        height: 64px;
+        line-height: 64px;
+        text-indent: 1em;
+        font-size: 22px;
+        color: #666;
+    }
+    a{
+        color: #68bb00;
+        font-size: 14px;
+        font-weight: 1000;
+        float: left;
+        margin-top: 36px;
+        height: 64px;
+        text-indent: 1em;
+        line-height: 64px;
+        span{
+            color: #666;
+        }
+    }
+}
+.section{
+    width: 1130px;
+    height: 500px;
+    clear: both;
+    margin: 0 auto;
+    background: url(../img/log2.jpg) center no-repeat;
+    .vip{
+        width: 360px;
+        margin: 30px 120px 0 0;
+        float: right;
+        box-shadow: 0px 0px  2px 2px #bbb;
+        .tit{
+            height: 30px;
+            clear: both;
+            padding-top: 14px;
+            background: url(../img/reg3.jpg) center no-repeat;
+            .titl{
+                float: left;
+                color: #000;
+                text-indent: 28px;
+                width: 179px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-bottom: 1px solid #488200;
+                img{
+                    vertical-align:top ;
+                }
+            }
+            .titr{
+                float: right;
+                color: #666;
+                width: 179px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                img{
+                    vertical-align: middle;
+                }
+            }
+            
+        }
+        ul{
+            clear: both;
+            padding-top: 15px;
+            li{
+                width: 270px;
+                height: 38px;
+                line-height: 38px;
+                margin: 5px auto;
+            }
+            .one{
+                border: 1px solid #bbbbbb;
+                input{
+                    height: 36px;
+                    width: 268px;
+                    float: left;
+                    text-indent: 10px;
+                }
+                
+            }
+            .two{
+                clear: both;
+                #verify{
+                    width: 162px;
+                    height: 36px;
+                    float: left;
+                    text-indent: 10px;
+                    border: 1px solid #bbbbbb;
+                    display: inline-block;
+                }
+                #verify_text{
+                    width: 96px;
+                    height: 36px;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 1000;
+                    float: left;
+                    border: 1px solid #bbbbbb;
+                    margin-left: 10px;
+                }
+            }
+            .there{
+                input{
+                    width: 162px;
+                    height: 36px;
+                    float: left;
+                    text-indent: 10px;
+                    border: 1px solid #bbbbbb;
+                    display: inline-block;
+                }
+                a{
+                    width: 94px;
+                    height: 36px;
+                    text-align: center;
+                    color: #333;
+                    background: #eee;
+                    border: 1px solid #bbbbbb;
+                    font-size: 14px;
+                    float: left;
+                    margin-left: 10px;
+                }
+            }
+            .four,.fours{
+                border: 1px solid #bbbbbb;
+                input{
+                    height: 36px;
+                    width: 268px;
+                    float: left;
+                    text-indent: 10px;
+                }
+            }
+            
+            .fove{
+                width: 272px;
+                height: 40px;
+                input{
+                    width: 272px;
+                    height: 40px;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 1000;
+                    background: #68bb00;
+                }
+            }
+            #hint,#hintth,#hints{
+                line-height: 20px;
+                height: 20px;
+                font-size: 12px;
+                color: red;
+                text-align: center;
+                display: none;
+            }
+            .lianjie{
+                width: 288px;
+                height: 24px;
+                margin: 0 auto;
+                p{
+                    color: #888888;
+                    font-size: 12px;
+                    height: 24px;
+                    line-height: 24px;
+                    
+                    text-align: center;
+                }
+                
+            }
+            .yzzc{
+                line-height: 30px;
+                height: 30px;
+                font-size: 12px;
+                color: green;
+                text-align: center;
+                //display: none;
+            }
+        }
+        
+        
+        
+    }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+	<title>猫诚注册</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+ 	<link rel="stylesheet" href="css/register.css" />
+</head>
+<body>
+<!--header-->	
+        <div class="logoin-top">
+        	<img src="img/logo.gif"/>
+        	<h4>欢迎登录</h4>
+        	<a href="javascript:;"><span>已有账号</span>直接登录</a>
+        </div>
+	    <div class="section">
+	    	<div class="vip">
+	    		<p class="tit">
+	    			<a href="javascript:;" class="titl"><img src="img/reg1.jpg"/>手机注册</a>
+	    			<a href="javascript:;" class="titr"><img src="img/reg2.jpg" alt="" />邮箱注册</a>
+	    		</p>
+	    		<form action="">
+		    		<ul>
+		    			<li class="one"> 
+		    				<input type="text" placeholder="手机号" id="username"/>
+		    			</li>
+		    			<div id="hint"></div>
+		    			<li class="two">
+			          		<input type="text" placeholder="输入验证码" id="verify"/>
+		    				<input type = "button" id="verify_text" /> 
+		    			</li>
+		    			<div id="hintth"></div>
+		    			<li class="there">
+		    				<input type="text" placeholder="短信验证码"/>
+		    				<a href="javascript:;">获取验证码</a>
+		    			</li>
+		    			<li class="four">
+		    				<input type="password" placeholder="设置密码" id="userpass"/>
+		    			</li>
+		    			<li class="fours">
+		    				<input type="password" placeholder="确认密码" id="reuserpass"/>
+		    			</li>	
+		    			<div id="hints"></div>
+		    			<div class="lianjie">
+			    			<p>点击注册，表示您同意《猫诚食品用户协议》</p>
+			    		</div>
+		    			<li class="fove"><input id="btn" type="button" style="outline: medium;" value="立即注册"/></li>
+		    			<div class="yzzc"></div>
+
+		    		</ul>
+	    		</form>
+	    		
+	    		
+	    	</div>
+	    </div>
+<!--footer-->	
+		<div class="boottom">
+			<ul>
+				<li><h5>关于我们</h5></li>
+				<li><a href="javascript:;">猫诚食品介绍</a></li>
+				<li><a href="javascript:;">猫诚食品微博</a></li>
+				<li><a href="javascript:;">商务合作</a></li>
+				<li><a href="javascript:;">电商系统</a></li>
+			</ul>
+			<ul>
+				<li><h5>新手指南</h5></li>
+				<li><a href="javascript:;">会员介绍</a></li>
+				<li><a href="javascript:;">优惠劵使用</a></li>
+				<li><a href="javascript:;">评价商品</a></li>
+			</ul>
+			<ul>
+				<li><h5>支付方式</h5></li>
+				<li><a href="javascript:;">支付宝余额支付</a></li>
+				<li><a href="javascript:;">微信钱包支付</a></li>
+				<li><a href="javascript:;">网银在线支付</a></li>
+				<li><a href="javascript:;">联华OK卡支付</a></li>
+			</ul>
+			<ul>
+				<li><h5>配送方式</h5></li>
+				<li><a href="javascript:;">安全配送</a></li>
+				<li><a href="javascript:;">配送时间及费用</a></li>
+			</ul>
+			<ul>
+				<li><h5>售后服务</h5></li>
+				<li><a href="javascript:;">退换货流程</a></li>
+				<li><a href="javascript:;">退换货注意事项</a></li>
+			</ul>
+			<ul>
+				<li><h5>帮助中心</h5></li>
+				<li><a href="javascript:;">常见问题</a></li>
+				<li><a href="javascript:;">联系我们</a></li>
+				<li><a href="javascript:;">物流查询</a></li>
+			</ul>
+		</div>
+		
+		<div class="boottomes"></div>
+		
+		<div class="footer">
+			<p class="foot">
+				<a href="javascript:;">首   页&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">联系我们&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">加入猫诚食品&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+				<a href="javascript:;">手机猫诚食品</a>
+			</p>
+			<p>Copyright © 2009-2018 morefood.com，All Rights Reserved 上海猫诚电子商务股份有限公司 版权所有 沪ICP备09068257号-7</p>
+			<p>食品流通许可证编号：JY13101130035157 酒类许可证：1406030114003051 营业执照</p>
+			<div class="photo"><img src="img/foot1.gif" alt="" /><img src="img/foot2.jpg" alt="" /><img src="img/foot3.gif" alt="" /><img src="img/foot4.png" alt="" /></div>
+		</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.1.8.3.js"></script>
+<script type="text/javascript">
+
+$(function () {
+      // 手机
+      
+    $("#username").blur(function(){
+      var str = $("#username").val();
+      var ret = /^1\d{10}$/;
+      if(ret.test(str)){
+      	 $("#hint").css('display','block');
+         $('#hint').html('用户名合法');
+         
+      }else{
+      	 $("#hint").css('display','block');
+         $('#hint').html('用户名不合法');
+      }
+    });
+    
+    // 密码
+    $("#userpass").blur(function(){
+      var str = $("#userpass").val();
+      var ret = /^[a-zA-Z]\w{5,14}$/;
+      if(ret.test(str)){
+         $('#hints').html('密码合法');
+         $('#hints').css('display','block');
+      }else{
+         $('#hints').html('密码必须是6-15个字符之间，以字母开头');
+         $('#hints').css('display','block');
+      }
+    });
+    
+    $("#reuserpass").blur(function(){
+      var pass = $("#reuserpass").val();
+      if($("#userpass").val()!=pass){
+         $('#hints').html('两次输入密码不一致！');
+         $('#hints').css('display','block');
+      }else{
+      	$('#hints').html('密码设置正确！');
+        $('#hints').css('display','block');
+      }
+    });
+    // 邮件
+    $("#email").blur(function(){
+      var str = $("#email").val();
+      var ret = /^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
+      if(ret.test(str)){
+        $('#hinttwo').html('邮箱地址合法');
+      }else{
+        $('#hinttwo').html('邮箱地址不合法');
+      }
+    });
+    
+     function change(){
+	    code=$("#verify_text");
+	  // 验证码组成库
+	   var arrays=new Array( 
+	       '1','2','3','4','5','6','7','8','9','0',
+	       'a','b','c','d','e','f','g','h','i','j', 
+	       'k','l','m','n','o','p','q','r','s','t', 
+	       'u','v','w','x','y','z', 
+	       'A','B','C','D','E','F','G','H','I','J', 
+	       'K','L','M','N','O','P','Q','R','S','T', 
+	       'U','V','W','X','Y','Z'        
+	       ); 
+	    codes='';// 重新初始化验证码
+	   for(var i = 0; i<4; i++){
+	   // 随机获取一个数组的下标
+	   var r = parseInt(Math.random()*arrays.length);
+	   codes += arrays[r];
+	  }
+	  // 验证码添加到input里
+	     code.val(codes);
+	  }
+	  change();
+	 code.blur(change);
+	 //单击验证
+	  $("#verify").blur(function(){
+	   var inputCode = $("#verify").val().toUpperCase(); //取得输入的验证码并转化为大写 
+	   console.log(inputCode);
+	  if(inputCode.length == 0) { //若输入的验证码长度为0
+         $('#hintth').html('请输入验证码');//则弹出请输入验证码
+	     
+	  }    
+	  else if(inputCode!=codes.toUpperCase()) { //若输入的验证码与产生的验证码不一致时
+	     $('#hintth').html('验证码错误'); //则弹出验证码输入错误
+         $('#hintth').css('display','block');
+	    change();//刷新验证码
+	     $("#verify").val("");//清空文本框
+	  }else { //输入正确时
+	     $('#hintth').html('验证码正确');
+         $('#hintth').css('display','block');
+	  } 
+	  });
+	  
+	 
+	    $("#btn").click(function () {
+	        $.ajax({
+	           type:"POST",
+	           url:"regsave.php",
+	           data:{
+	              "username":$("#username").val(),
+	              "userpass":$("#userpass").val()
+	           },
+	            success:function (t) {
+	                if(t=="0"){
+	                    //保存cookie
+	                    $(".yzzc").html("注册成功");
+	                    location.href="login.html";
+	                }else{
+	                    $(".yzzc").html("注册失败，该用户名已经存在！");
+	                    
+	                }
+	            }
+	        });
+	    });
+	
+  });
+
+</script>

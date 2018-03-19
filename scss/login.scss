@@ -1,0 +1,165 @@
+.logoin-top{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+    img{
+        float: left;
+        margin-top: 40px;
+    }
+    h4{
+        float: left;
+        margin-top: 36px;
+        height: 64px;
+        line-height: 64px;
+        text-indent: 1em;
+        font-size: 22px;
+        color: #666;
+    }
+}
+.section{
+    width: 1130px;
+    height: 500px;
+    clear: both;
+    margin: 0 auto;
+    background: url(../img/log2.jpg) center no-repeat;
+    .vip{
+        width: 360px;
+        height: 369px;
+        margin: 30px 120px 0 0;
+        float: right;
+        box-shadow: 0px 0px  2px 2px #bbb;
+        .tit{
+            height: 64px;
+            clear: both;
+            line-height: 64px;
+            .titl{
+                float: left;
+                color: #666666;
+                text-indent: 28px;
+                font-size: 18px;
+            }
+            a{
+                float: right;
+                color: #68bb00;
+                margin-right:28px ;
+            }
+        }
+        ul{
+            clear: both;
+            li{
+                width: 270px;
+                height: 38px;
+                line-height: 38px;
+                margin: 5px auto;
+            }
+            .one{
+                border: 1px solid #bbbbbb;
+                span{
+                    width: 38px;
+                    height: 38px;
+                    float: left;
+                    border-right: 1px solid #bbbbbb;
+                    display: inline-block;
+                    background: url(../img/log3.jpg) center no-repeat;
+                }
+                input{
+                    width: 230px;
+                    height: 36px;
+                    float: left;
+                    text-indent: 10px;
+                    
+                }
+            }
+            .two{
+                border: 1px solid #bbbbbb;
+                span{
+                    background: url(../img/log4.jpg) center no-repeat;
+                    width: 38px;
+                    height: 38px;
+                    float: left;
+                    border-right: 1px solid #bbbbbb;
+                    display: inline-block;
+                }
+                input{
+                    width: 230px;
+                    height: 36px;
+                    text-indent: 10px;
+                    float: left;
+                }
+            }
+            .there{
+                font-size: 14px;
+                color: #bbbbbb;
+                clear: both;
+                height: 25px;
+                a{
+                    color: #4b4b4b;
+                    float: right;
+                    width: 80px;
+                }
+                a:hover{
+                    color: #68bb00;
+                }
+            }
+            .fove{
+                width: 272px;
+                height: 40px;
+                input{
+                    width: 272px;
+                    height: 40px;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 1000;
+                    background: #68bb00;
+//                  background: url(../img/log5.jpg) center no-repeat;
+                }
+            }
+            #hint{
+                line-height: 30px;
+                height: 30px;
+                font-size: 12px;
+                color: red;
+                text-align: center;
+            }
+        }
+        .lianjie{
+            width: 288px;
+            height: 60px;
+            margin: 0 auto;
+            p{
+                color: #888888;
+                font-size: 12px;
+                height: 24px;
+                line-height: 24px;
+            }
+            span{
+                color: #666666;
+                font-size: 12px;
+                height: 36px;
+                width: 67px;
+                display: inline-block;
+                line-height: 36px;
+            }
+            .first{
+                text-indent: 3.5em;
+                background: url(../img/log6.jpg) 0px 0px no-repeat;
+            }
+            .sec{
+                text-indent: 3.5em;
+                background: url(../img/log6.jpg) -69px 0px no-repeat;
+            }
+            .therid{
+                text-indent: 3.5em;
+                background: url(../img/log6.jpg) -143px 0px no-repeat;
+            }
+            .fours{
+                width: 72px;
+                text-indent: 3em;
+                background: url(../img/log6.jpg) -216px 0px no-repeat;
+            }
+        }
+        
+        
+    }
+}
