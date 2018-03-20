@@ -67,6 +67,8 @@
                 margin: 0 2px 8px 0;
                 p{
                     position: relative;
+                    width: 166px;
+                    height: 166px;
                     span{
                         position: absolute;
                         top: 0;
@@ -130,6 +132,7 @@
                         float: left;
                         width: 166px;
                         height: 25px;
+                        font-size: 12px;
                         color: #68bb00;
                         line-height: 25px;
                         text-indent: 25px;

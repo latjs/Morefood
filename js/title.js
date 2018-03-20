@@ -1,0 +1,10 @@
+$(function(){
+        $('.comtit').children().each(function(k){
+            $(this).mouseenter(function(){
+                $('.jk').eq(k).css({'display':'block'});
+            });
+            $(this).mouseleave(function(){
+               $('.jk').eq(k).css({'display':'none'});
+            });
+        });
+    });

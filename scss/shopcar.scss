@@ -1,0 +1,306 @@
+.shop-nav{
+    width: 1130px;
+    height: 85px;
+    clear: both;
+    margin: 0 auto;
+    .navl{
+        float: left;
+        margin-top: 7px;
+    }
+    .navr{
+        float: right;
+        margin-top: 23px;
+    }
+}
+.shop-car{
+    width: 1140px;
+    clear: both;
+    margin: 0 auto;
+    .shop-tit{
+        color: #7bc523;
+        font-size: 24px;
+        font-weight: 1000;
+        height: 46px;
+        line-height: 46px;
+    }
+    .shopname{
+        width: 1140px;
+        height: 35px;
+        background:#f7f7f7;
+        border:{
+            top:1px solid #e1e1e1;
+            bottom:1px solid #e1e1e1;
+        } 
+        margin: 0 auto;
+        
+        span{
+            display: inline-block;
+            line-height: 35px;
+            font-size: 12px;
+            color: #666666;
+            float: left;
+            text-align: center;
+        }
+    }
+    .section{
+        width: 1140px;
+        height: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #dddddd;
+        clear: both;
+        ul {
+                width: 1140px;
+                height: 105px;
+                 }
+                li {
+                  padding: 10px 0;
+                  overflow: hidden; 
+                  p {
+                    float: left;
+                    font-size: 12px;
+                    color: #333;
+                    height: 85px; 
+                    line-height: 85px;
+                    }
+                    
+                    p:nth-child(1) {
+                        width: 339px; 
+                        img {
+                          width: 80px;
+                          height: 80px;
+                          padding: 10px;
+                          float: left; 
+                          }
+                          span{
+                              width: 139px;
+                              height: 85px;
+                              float: left;
+                              display: inline-block;
+                          }
+                    }
+                     
+                    p:nth-child(2) {
+                        width: 113px;
+                        text-align: center; 
+                    }
+                    p:nth-child(3) {
+                        width: 170px;
+                        text-align: center; 
+                        .fuh {
+                          width: 15px;
+                          height: 20px;
+                          cursor: pointer; 
+                          }
+                         .num {
+                          width: 35px;
+                          height: 35px;
+                          text-align: center;
+                          margin: 0 5px; 
+                          border: 1px solid #e2e3ea;
+                          }
+                    }
+                    p:nth-child(4){
+                        width: 113px;
+                        text-align: center; 
+                    }
+                    p:nth-child(5){
+                        width: 113px;
+                        text-align: center; 
+                    }
+                    p:nth-child(6) {
+                        width: 90px;
+                        text-align: center;
+                        color: red; 
+                    }
+                    p:nth-child(7) {
+                        width: 79px;
+                        text-align: center;
+                     }
+                   
+                    p:nth-child(8) {
+                        width: 120px;
+                        text-align: center;
+                        cursor: pointer; 
+                        #shouC{
+                            color:green;
+                        }
+                        #shanS{
+                            color:red ;
+                        }
+                    }
+                    
+                  }
+             
+    }
+    .zj{
+        width: 1140px;
+        height: 76px;
+        clear: both;
+        margin: 10px auto;
+        background: #f7f7f7;
+        border-bottom: 1px solid #e1e1e1;
+        p{
+            line-height: 76px;
+            width: 150px;
+            float: right;
+            font-size: 12px;
+            color: #666;
+            span{
+                font-size: 14px;
+                font-weight: 1000;
+                color: #cc0000;
+            }
+        }
+    }
+    .shop-foot{
+        width: 1140px;
+        height: 66px;
+        clear: both;
+        margin: 0 auto;
+        p{
+            width: 310px;
+            float: right;
+            margin: auto;
+            padding-top: 25px;
+            #del{
+                width: 120px;
+                height: 36px;
+                border-radius: 5px;
+                vertical-align: middle;
+                background: url(../img/shop2.png) center no-repeat;
+            }
+            #add{
+                width: 140px;
+                height: 36px;
+                color: #fff;
+                margin-left: 20px;
+                font-weight: 1000;
+                vertical-align: middle;
+                font-size: 18px;
+                background: #68bb00;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+
+.collect{
+    width: 1130px;
+    height: 1020px;
+    clear: both;
+    margin: 0 auto;
+    .coll-top{
+        color: #7bc523;
+        font-size: 24px;
+        font-weight: 1000;
+        height: 32px;
+        line-height: 32px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    
+    .dayone{
+            width: 166px;
+            height: 304px;
+            float: left;
+            padding:5px 10px 0 10px ;
+            margin: 0 2px 8px 0;
+            .phot{
+                position: relative;
+                width: 166px;
+                height: 166px;
+                span{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 40px;
+                    height: 27px;
+                    z-index: 3;
+                    display: inline-block;
+                    background: url(../img/listzh.png) 2px 0px no-repeat;
+                }
+            }
+            a{
+                font-size: 14px;
+                float: left;
+                color: #4b4b4b;
+                text-indent: 10px;
+                height: 25px;
+                line-height: 25px;
+            }
+            a:hover{
+                color: #5da700;
+            }
+            .daone{
+                width: 166px;
+            }
+            .datwo{
+                color: #ff5500;
+                font-size: 12px;
+                height: 30px;
+                line-height: 30px;
+                .dtc{
+                    float: left;
+                    display: inline-block;
+                    height: 30px;
+                    text-indent: 1em;
+                }
+                .dtone{
+                    font-size: 24px;
+                    font-weight: 1000;
+                    float: left;
+                    display: inline-block;
+       
+                }
+               
+            }
+            .dttwo{
+                    display: inline-block;
+                    text-indent: 10px;
+                    width:166px;
+                    font-size: 12px;
+                    height: 25px;
+                    line-height: 25px;
+                    color: #ff5500;
+            }
+            
+            .plsc{
+                width: 166px;
+                height: 50px;
+                font-size: 12px;
+                p{
+                    float: left;
+                    width: 166px;
+                    height: 25px;
+                    color: #68bb00;
+                    line-height: 25px;
+                    text-indent: 25px;
+                    background: url(../img/listzh2.png) 4px -25px no-repeat;
+                
+                    
+                }
+                span{
+                    float: left;
+                    height: 25px;
+                    line-height: 25px;
+                    width: 60px;
+                    text-indent: 25px;
+                    color: #dddddd;
+                    border: 1px solid #eee ;
+                    border-right: none;
+                    background: url(../img/listzh2.png) 4px -85px no-repeat;
+                }
+                a{
+                    float: left;
+                    width: 100px;
+                    height: 25px;
+                    line-height: 25px;
+                    color: #68bb00;
+                    text-indent: 25px;
+                    border: 1px solid #eee ;
+                    background: url(../img/listzh2.png) 4px -114px no-repeat;
+                }
+            }
+            
+        }
+}

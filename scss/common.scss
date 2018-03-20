@@ -145,16 +145,87 @@ input {
                 //right: 0;
                 //bottom: 0;
                 z-index: 3;
-                background: rgba(0,0,0,.8);
+                background: rgba(0,0,0,.7);
                 height: 520px;
                 width: 164px;
-                
                 li{
                     width: 164px;
                     height: 47px;
                     line-height: 47px;
                     text-align: center;
                     font-weight: 100;
+                    .jk{
+                        position: absolute;
+                        top: 0;
+                        left:164px;
+                        background: rgba(255,255,255,.7);
+                        color: #110001;
+                        font-size: 12px;
+                        width: 180px;
+                        display: none;
+                        border: 1px solid #333333;
+                        li{
+                            height: 28px;
+                            line-height: 28px;
+                            text-align: left;
+                            text-indent: 16px;
+                        }
+                        .rm{
+                            font-weight: 1000;
+                        }
+                        .viva{
+                            color: #fe1313;
+                        }
+                        li:hover{
+                            color: red;
+                            font-weight: 1000;
+                        }
+                    }
+                }
+                .a{
+                    background: url(../img/title.png) 0px 0px no-repeat;
+                    position: relative;
+                    
+                }
+                .b{
+                    position: relative;
+                    background: url(../img/title.png) 0px -45px no-repeat;
+                }
+                .c{
+                    position: relative;
+                    background: url(../img/title.png) 0px -90px no-repeat;
+                }
+                .d{
+                    position: relative;
+                    background: url(../img/title.png) 0px -137px no-repeat;
+                }
+                .e{
+                    position: relative;
+                    background: url(../img/title.png) 0px -184px no-repeat;
+                }
+                .f{
+                    position: relative;
+                    background: url(../img/title.png) 0px -229px no-repeat;
+                }
+                .g{
+                    position: relative;
+                    background: url(../img/title.png) 0px -276px no-repeat;
+                }
+                .h{
+                    position: relative;
+                    background: url(../img/title.png) 0px -319px no-repeat;
+                }
+                .i{
+                    position: relative;
+                    background: url(../img/title.png) 0px -367px no-repeat;
+                }
+                .j{
+                    position: relative;
+                    background: url(../img/title.png) 0px -414px no-repeat;
+                }
+                .k{
+                    position: relative;
+                    background: url(../img/title.png) 0px -460px no-repeat;
                 }
             }
         }
