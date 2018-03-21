@@ -50,12 +50,51 @@ input {
     .topr{
         width:445px;
         float: right;
-        
          a{
             float: left;
-            img{
-                width: 100%;
-                height: 100%;
+            color: #666;
+            font-size: 12px;
+            position: relative;
+            .online{
+                clear: both;
+                z-index: 10;
+                border: 1px solid #cccccc;
+                border-top:none ;
+                text-align: center;
+                background: #fff;
+                display: none;
+                position: absolute;
+                top: 38px;
+                left: 0;
+                p{
+                    width: 150px;
+                    height: 25px;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #666666;
+                    font-size: 12px;
+                }
+                form{
+                    width: 164px;
+                    margin: 10px auto;
+                    .txt{
+                    width: 102px;
+                    height: 24px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-left: 10px;
+                    }
+                    .but{
+                        width: 144px;
+                        height: 26px;
+                        background: #ccc;
+                        border-radius: 4px;
+                        margin-left: 5px;
+                        margin-top: 5px;
+                    }
+                }
+                
+                
             }
         }
     }
@@ -251,7 +290,8 @@ input {
     }
     .navr{
         float: right;
-        padding-right: 60px;
+        width: 130px;
+        margin-right: 60px;
         color: #ff3333;
         height: 40px;
         line-height: 40px;

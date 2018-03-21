@@ -106,22 +106,32 @@
             margin:10px 10px 0 0;
             float: left;
             
-            .carousel {
+            
+            .carousel2 {
                 position: relative;
                 margin:auto;
                 width: 230px;
                 height: 440px;
-                overflow: hidden;
-                clear: both;
+//              overflow: hidden;
+//              clear: both;
                 
                 .carousel-list {
-                    position: relative;
-                    width: 460px;
-                    
+                    position: absolute;
+                    width: 700px;
+                    height:440px;
+                    left:0;
+                    top:0;
+//                  overflow: hidden;
+                    li{
+                        width:230px;
+                        height:440px;
+                        float: left;
+                    }
                     .carousel-list li img {
+                            display:block;
                             width: 230px;
                             height: 440px;
-                            position:absolute;    
+//                          position:absolute;    
                     }
                 }
                 .dots {
