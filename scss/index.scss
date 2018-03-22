@@ -107,32 +107,27 @@
             float: left;
             
             
-            .carousel2 {
+            #carousel2 {
                 position: relative;
-                margin:auto;
                 width: 230px;
                 height: 440px;
-//              overflow: hidden;
-//              clear: both;
+                overflow: hidden;
                 
-                .carousel-list {
-                    position: absolute;
-                    width: 700px;
-                    height:440px;
-                    left:0;
-                    top:0;
-//                  overflow: hidden;
+                .carousel-list2 {
+                    position: relative;
+                    width: 460px;
+                    height: 440px;
                     li{
                         width:230px;
                         height:440px;
                         float: left;
+                        img {
+                                display:block;
+                                width: 230px;
+                                height: 440px; 
+                        }
                     }
-                    .carousel-list li img {
-                            display:block;
-                            width: 230px;
-                            height: 440px;
-//                          position:absolute;    
-                    }
+                    
                 }
                 .dots {
                     position: absolute;
@@ -141,7 +136,7 @@
                     bottom: 10px;
                     margin: 0 auto;
                     padding: 0 4px;
-                    width:100px; 
+                    width:64px; 
                     line-height: 0;
                     font-size: 30px;
                     border-radius: 12px;
@@ -152,13 +147,13 @@
                         width: 15px;
                         height: 15px;
                         float: left;
-                        background: rgba(255, 255, 255, .5);
+                        background: rgba(255, 255, 255, .3);
                         border-radius: 50%;
                         display: block;
                         
                     }
                     .active {
-                            background: red;
+                            background: #fff;
                     }
                 }
             }
@@ -351,9 +346,58 @@
         .dayl{
             width: 230px;
             height: 440px;
-            background: yellow;
             margin:10px 10px 0 0;
             float: left;
+            #carousel3 {
+                position: relative;
+                width: 230px;
+                height: 440px;
+                overflow: hidden;
+                
+                .carousel-list2 {
+                    position: relative;
+                    width: 460px;
+                    height: 440px;
+                    li{
+                        width:230px;
+                        height:440px;
+                        float: left;
+                        img {
+                                display:block;
+                                width: 230px;
+                                height: 440px; 
+                        }
+                    }
+                    
+                }
+                .dots {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 10px;
+                    margin: 0 auto;
+                    padding: 0 4px;
+                    width:46px; 
+                    line-height: 0;
+                    font-size: 30px;
+                    border-radius: 12px;
+                    height: 30px;
+                    
+                    a {
+                        margin: 6px 4px;
+                        width: 15px;
+                        height: 15px;
+                        float: left;
+                        background: rgba(255, 255, 255, .4);
+                        border-radius: 50%;
+                        display: block;
+                        
+                    }
+                    .active {
+                            background: #fff;
+                    }
+                }
+            }
         }
         
         .dayr{

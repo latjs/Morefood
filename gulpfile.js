@@ -8,6 +8,8 @@ var concat=require("gulp-concat");
 var uglify=require("gulp-uglify");
 //引入gulp-rename插件
 var rename=require("gulp-rename");
+//压缩scss
+var minfyCSS = require("gulp-minify-css");
 
 
 
@@ -80,6 +82,7 @@ gulp.task("bat",["copy-index","copy-jpg"],function(){
 gulp.task("sassfile",function(){
 	gulp.src("scss/*.scss")
 	.pipe(sass())
+	.pipe(minfyCSS())
 	.pipe(gulp.dest("D:\\phpStudy\\WWW\\Morefood_Publish\\css"));
 });
 
@@ -109,21 +112,18 @@ gulp.task("copy-js",function(){
 
 //监听
 gulp.task("watchall",function(){
-
+	
 	gulp.watch("*.html",["copy-html"]);
 	gulp.watch("*.php",["php"]);
 	gulp.watch("php/*.php",["copy-php"]);
-	//gulp.watch("img/*.jpg",["copy-jpg"]);
 	gulp.watch("img/**/*",["copy-jpg"]);
 	gulp.watch("js/*.js",["copy-js"]);
 	gulp.watch("json/*.json",["jsonfile"]);
-	
 	gulp.watch("scss/*.scss",["sassfile"]);
 	//gulp.watch(["js/index.js","js/goodslist.js"],["concatjs"]);
 	//gulp.watch(["js/index.js","js/goodslist.js"],["concatanguglifyjs"]);
 	//gulp.watch(["js/index.js","js/goodslist.js"],["concatanguglifyjs"]);
 	//gulp.watch(["js/index.js","js/goodslist.js"],["concatanguglifyandrenamejs"]);
-	
 	
 });
 

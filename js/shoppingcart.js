@@ -1,28 +1,18 @@
 $(function(){
-    //1、全选或全不选
-    $("#selectAll").click(function(){
-		//判断当前点击的复选框处于什么状态$(this).is(":checked") 返回的是布尔类型
-		if($(this).is(":checked")){
-			$('ul :checkbox').prop('checked',true);
-		}else{
-            $('ul :checkbox').prop('checked',false);
-		}
-    });
+    
     //2、点击 加号       
-    $z = Number($('.zj').html());       //当前的总价
-    $w = Number($('.Zweight').html());  //当前的总重量
+    $z = Number($('.zjs').html());       //当前的总价
+  
     $('.fuh2').each(function(index){
         $(this).click(function(){
             $i = Number($('.num').eq(index).val());        //当前的数量  
             $x = Number($('.xiaoji').eq(index).html());   //当前的小计
             $i=Number($i+1);                                    //点击后的数量
             $x=$x+Number($('.dj').eq(index).html());            //点击后的小计
-            $z=$z+Number($('.dj').eq(index).html());            //点击后的总计
-            $w=$w+Number($('.weight').eq(index).html());        //点击后的总重量 
+            $z=$z+Number($('.dj').eq(index).html());             //点击后的总重量 
             $('.num').eq(index).val($i);
             $('.xiaoji').eq(index).html($x);
-            $('.zj').html($z);
-            $('.Zweight').html($w);
+            $('.zjs').html($z);
         });
     });
     //3、点击 减号
@@ -33,11 +23,9 @@ $(function(){
             $i=Number($i-1);                                   //点击后的数量
             $x=$x-Number($('.dj').eq(index).html());            //点击后的小计
             $z=$z-Number($('.dj').eq(index).html());            //点击后的总计
-            $w=$w-Number($('.weight').eq(index).html());        //点击后的总重量 
             $('.num').eq(index).val($i);
             $('.xiaoji').eq(index).html($x);
-            $('.zj').html($z);
-            $('.Zweight').html($w);
+            $('.zjs').html($z);
         });
     });
 
@@ -156,7 +144,6 @@ $(function(){
 
 });
 
-
 function showgoodscart(datas) {
         let $ulbox = $("#ulbox");
         for(let i=0;i<datas.length;i++){
@@ -174,7 +161,7 @@ function showgoodscart(datas) {
 		                <p><span id='shouC'>收藏</span><span id='shanS<br />'>删除</span></p>
 		            </li>
 		            
-		        </ul>`;  
+		        </ul>`;
             $ulbox.append(str);
         }
     }

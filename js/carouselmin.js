@@ -5,7 +5,6 @@ class Carouseles{
 	constructor({el,timeout}){
 		this.el = el;
 		this.timeout = timeout;
-		console.log(this.el);
 		//鼠标移入移出事件
 		this.el.onmouseover = () =>{
 			//清除定时器
@@ -18,9 +17,8 @@ class Carouseles{
 		
 		
 		//复制Carouseles-list的第一个li到最后
-		let CarouselesList = this.el.getElementsByClassName('carousel-list')[0];
+		let CarouselesList = this.el.getElementsByClassName('carousel-list2')[0];
 		let firstLi = CarouselesList.children[0];
-		console.log(firstLi);
 		this.liWidth = firstLi.offsetWidth;  //每张图片的宽度
 		
 		CarouselesList.innerHTML += firstLi.outerHTML; //复制第一张图片

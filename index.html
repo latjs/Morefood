@@ -239,7 +239,7 @@
 				<p><span class="tol">今日推荐</span><span class="tor">sell</span></p>
 				<div class="dayl">
 					<div class="carousel" id="carousel2">
-						<ul class="carousel-list">
+						<ul class="carousel-list2" >
 							<li><img src="img/5.jpg"></li>
 							<li><img src="img/6.jpg"></li>
 						</ul>
@@ -439,7 +439,16 @@
 					</div>
 				</div>
 				<div class="dayl">
-					两张照片轮播
+					<div class="carousel" id="carousel3">
+						<ul class="carousel-list2" >
+							<li><img src="img/7.jpg"></li>
+							<li><img src="img/8.jpg"></li>
+						</ul>
+						<div class="dots">
+							<a href="javascript:;" class="active"></a>
+							<a href="javascript:;"></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1542,6 +1551,10 @@
 <script type="text/javascript">
 	new Carouseles({
 		el:$$('carousel2'),
+		timeout:'3000'
+	});
+	new Carouseles({
+		el:$$('carousel3'),
 		timeout:'3000'
 	});
 </script>
